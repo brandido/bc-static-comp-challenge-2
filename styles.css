@@ -1,0 +1,195 @@
+
+body {
+  font-family: Helvetica;
+}
+
+/*Header*/
+header {
+  display: flex;
+  justify-content: space-between;
+  background: #353333ed;
+
+}
+
+ul {
+  border: black;
+  list-style-type: list;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.table {
+  display: table;
+  width: 35rem;
+}
+
+.horizontal-list {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: flex-start;
+  list-style: none;
+}
+
+.share-font {
+  color: #d4d0d0;
+}
+
+.share {
+  background-image: url(images/share.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 1.7rem;
+  height: 1.7rem;
+  width: 4rem;
+}
+
+.list {
+  background-image: url(images/list.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 1.7rem;
+  height: 1.7rem;
+  width: 4rem;
+}
+
+.avatar {
+  background-image: url(images/avatar.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 1.7rem;
+  height: 1.7rem;
+  width: 4rem;
+}
+
+.personal-video {
+  width: 10rem;
+}
+
+.admin {
+  background-image: url(images/avatar.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 1.4rem;
+  height: 2rem;
+  margin-right: 1.2rem;
+}
+
+.logo {
+  text-indent: -9999999px;
+  background-image: url(images/linkedin-logo.svg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 30%;
+  height: 12vh;
+  width: 8rem;
+  margin-top: 2rem;
+}
+
+p {
+  font-size: 1.4rem;
+  margin-left: 2rem;
+  color: #737171;
+}
+
+.container2 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+}
+
+#horizontal-list li {
+    display: inline;
+    margin-right: 3rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
+  }
+
+/*Main Section*/
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%
+  height: 1000px;
+  color: #5b5858;
+}
+
+.main {
+  background-color: lightgrey;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.lower-header {
+  background-color: lightgrey;
+}
+
+.h1-title {
+  margin-left: : 2em;
+  color: #5b5858;
+}
+
+.card {
+  box-shadow: 2px 4px 10px #737171eb;
+  background-color: whitesmoke;
+  height: fit-content;
+  max-width: 25%;
+  min-width: 13rem;
+  margin-bottom: 0.5rem;
+}
+
+.image {
+  background-image: url(images/Austin.jpg);
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 22vh;
+  opacity: .75;
+  display: flex;
+  justify-content: space-between;
+}
+
+.share-arrow {
+  height: 2rem;
+  width: 2rem;
+  margin: .5rem;
+  display: flex;
+  justify-content: space-between
+}
+
+.recipeints_info{
+  margin: .3rem;
+}
+
+/*.views {
+  display: flex;
+  justify-content: flex-end;
+*/}
+
+.white-views {
+  color: #fffffff2;
+}
+
+.view-number {
+  color: #fffffff2;
+}
+
+.url {
+  word-wrap: break-word;
+  background-color: lightgrey;
+  color: grey;
+  font-weight: 400;
+}
+.card h3 {
+  height: 0;
+}
+
+
+
+
+
