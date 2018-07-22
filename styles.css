@@ -64,7 +64,7 @@ ul {
 }
 
 .personal-video {
-  width: 10rem;
+  width: 14em;
 }
 
 .admin {
@@ -90,7 +90,8 @@ ul {
 p {
   font-size: 1.4rem;
   margin-left: 2rem;
-  color: #737171;
+  color: #898989;
+  padding: .1em;
 }
 
 .container2 {
@@ -139,7 +140,7 @@ p {
   background-color: whitesmoke;
   height: fit-content;
   max-width: 25%;
-  min-width: 13rem;
+  min-width: 300px;
   margin-bottom: 0.5rem;
 }
 
