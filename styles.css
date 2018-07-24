@@ -181,6 +181,13 @@ p {
   height: 0;
 }
 
+@media screen and (min-width: 1200px) {
+
+  .card {
+    min-width: 400px;
+  }
+
+}
 
 @media screen and (max-width: 900px) {
 
