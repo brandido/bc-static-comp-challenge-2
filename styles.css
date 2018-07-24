@@ -148,27 +148,33 @@ p {
 }
 
 .share-arrow {
-  height: 2rem;
-  width: 2rem;
-  margin: .5rem;
+  height: 5rem;
+  width: 5rem;
+  margin: .85rem;
   display: flex;
   justify-content: space-between
 }
 
 .recipeints_info{
-  margin: .3rem;
+  margin: 1.3rem;
 }
 
 .views {
-  margin: 1em;
+  margin: 0.5em 1em;
 }
 
 .white-views {
   color: white;
+  margin-bottom: 0.3em;
+  font-size: 1.2em;
+  font-weight: 100;
 }
 
 .view-number {
   color: #fffffff2;
+  margin-top: 0;
+  font-size: 3em;
+  font-weight: 100;
 }
 
 .url {
@@ -176,10 +182,26 @@ p {
   background-color: lightgrey;
   color: grey;
   font-weight: 400;
+  font-size: 0.75em;
+  margin: 1em 0;
 }
 .card h3 {
   height: 0;
+  font-size: 1.2em;
 }
+
+.card h6 {
+  font-size: 1em;
+  font-weight: 300;
+  margin: 1.8em 0;
+  color: #adafb1;
+}
+
+.playlist {
+  margin: 0;
+}
+
+
 
 @media screen and (min-width: 1200px) {
 
